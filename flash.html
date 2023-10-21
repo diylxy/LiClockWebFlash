@@ -3,10 +3,9 @@
 
 
 <body>
-    <h1>Sample project for demoing ESP Web Tools</h1>
-
+    <h1>LiClock 最新版固件烧录工具</h1>
+    <p>原作者：http://github.com/witnessmenow/ESP-Web-Tools-Tutorial</p>
     <div id="main" style="display: none;">
-
         <br>
         <script
             type="module"
@@ -14,10 +13,10 @@
         </script>
         <esp-web-install-button id="installButton" manifest="webflash/manifest.json"></esp-web-install-button>
         <br>
-        <span>NOTE: Make sure to close anything using your devices com port (e.g. Serial monitor)</span>
+        <span>NOTE: 确保你已将其它软件从此串口断开连接 (e.g. 各种串口监视器、Cura)</span>
     </div>
     <div id="notSupported" style="display: none;">
-        Your browser does not support the Web Serial API. Try Chrome
+        你的浏览器不支持网页端串口，建议使用Chrome或者Edge
     </div>
     
 
