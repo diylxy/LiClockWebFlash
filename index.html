@@ -3,7 +3,7 @@
 
 
 <body>
-    <h1>LiClock 最新版固件烧录工具</h1>
+    <h1>LiClock 最新版固件烧录工具(2023-12-02)</h1>
     <p>固件/PCB作者：小李电子实验室</p>
     <a href="https://space.bilibili.com/213123506">UP主的Bilibili主页</a>
     <div id="main" style="display: none;">
@@ -19,7 +19,10 @@
     <div id="notSupported" style="display: none;">
         你的浏览器不支持网页端串口，建议使用Chrome或者Edge
     </div>
-    <p>网页烧录工具原作者：http://github.com/witnessmenow/ESP-Web-Tools-Tutorial</p>
+    <p>网页烧录工具原作者：https://github.com/esphome/esp-web-tools</p>
+    <p>如果烧不进去，提示wait packet header、sync 2nd等信息，请先检查串口烧录芯片的焊接，必须用烙铁加焊，要求每个焊点都圆润并突起。</p>
+    <p>背面的按钮是复位用的，不是BOOT或GPIO0，烧录过程中不要按它。</p>
+    <p>如果屏幕无显示，请先确认右下方三个二极管方向是否正确，之后加焊或重新焊接FPC/FFC连接器。</p>
     
 
     <script>
