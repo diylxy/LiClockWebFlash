@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+    <meta charset="utf-8">
+</head>
 
 <body>
-    <h1>LiClock 最新版固件烧录工具(2023-12-02)</h1>
+    <h1>LiClock 固件烧录工具(2.0-Alpha-2024-01-17)</h1>
+    <h1>警告：从1.x更新到此版固件会格式化你的LittleFS，请谨慎刷入</h1>
+    <h1>警告：此固件为测试版固件，同时提供1.0.2正式版固件</h1>
+
     <p>固件/PCB作者：小李电子实验室</p>
     <a href="https://space.bilibili.com/213123506">UP主的Bilibili主页</a>
     <div id="main" style="display: none;">
         <br>
         <script
             type="module"
-            src="https://unpkg.com/esp-web-tools@7.3.1/dist/web/install-button.js?module">
+            src="js/install-button.js">
         </script>
+        <h3>正式版</h3>
         <esp-web-install-button id="installButton" manifest="webflash/manifest.json"></esp-web-install-button>
+        <h3>测试版</h3>
+        <esp-web-install-button id="betaInstallButton" manifest="webflash/manifestBeta.json"></esp-web-install-button>
         <br>
         <span>NOTE: 确保你已将其它软件从此串口断开连接 (e.g. 各种串口监视器、Cura)</span>
     </div>
