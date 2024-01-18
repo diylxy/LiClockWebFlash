@@ -1,0 +1,13 @@
+{
+  "name": "LiClock 4MByte Flash",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "bin/16M.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
