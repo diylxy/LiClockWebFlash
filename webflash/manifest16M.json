@@ -1,5 +1,5 @@
 {
-  "name": "LiClock 4MByte Flash",
+  "name": "LiClock 16MByte Flash",
   "new_install_prompt_erase": true,
   "builds": [
     {
